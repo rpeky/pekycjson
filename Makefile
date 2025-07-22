@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Werror -Iinclude
+CFLAGS = -Wall -Werror -Wextra -Iinclude -g
 SRCDIR = src
 OBJDIR = build
 TARGET = $(OBJDIR)/json_parser
